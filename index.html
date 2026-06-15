@@ -271,30 +271,28 @@ footer{background:#060606;color:var(--muted);text-align:center;padding:1.5rem;fo
 
 <!-- PROJECTS -->
 <section id="projects">
-  <div class="section-label">Ce que j'ai réalisé</div>
-  <h2 class="section-title">Projets <em>&</em><br>Réalisations</h2>
+  <div class="section-label">Mes créations</div>
+  <h2 class="section-title">Projets <em>&</em><br>Campagnes</h2>
 
-  <!-- Projet vedette -->
-  <!-- Projet vedette Sport Connect -->
-  <div class="proj-featured fade-in">
-    <div><iframe src="https://www.youtube.com/embed/-h8fHKvzH78" allowfullscreen></iframe></div>
-    <div class="proj-featured-txt">
-      <div class="proj-badge">🎬 Concept & Réalisation</div>
-      <h3>Campagne publicitaire Sport Connect</h3>
-      <p>Conception d'une publicité vidéo pour promouvoir le dernier modèle de lunettes sportives Sport Connect, de l'idée créative à la réalisation finale.</p>
-      <div><span class="proj-tag">Concept créatif</span><span class="proj-tag">Direction artistique</span><span class="proj-tag">Production vidéo</span></div>
+
+  <!-- Campagnes vidéo -->
+  <div class="proj-row fade-in" onclick="showPage('videos')" style="cursor:pointer;">
+    <div class="proj-visual">
+      <img src="https://img.youtube.com/vi/jkUfAWxE3Dg/maxresdefault.jpg" alt="Campagnes vidéo">
+      <div class="proj-visual-overlay"><div class="overlay-btn">Voir les campagnes →</div></div>
+    </div>
+    <div class="proj-info">
+      <div class="proj-period">Projets perso & collaborations</div>
+      <div class="proj-lbl">Production audiovisuelle</div>
+      <h3>Campagnes vidéo & Publicité</h3>
+      <p>Conception et réalisation de campagnes vidéo, en projet personnel et pour le compte de marques. Du concept créatif à la production finale.</p>
+      <div class="proj-result">✦ Projets primés · Réalisations pour marques</div>
     </div>
   </div>
 
-  <div class="proj-featured fade-in">
-    <div><iframe src="https://www.youtube.com/embed/jkUfAWxE3Dg" allowfullscreen></iframe></div>
-    <div class="proj-featured-txt">
-      <div class="proj-badge">🏆 1er Prix · Solo</div>
-      <h3>Ambush Marketing : Le Livreur Uber Eats qui a crashé la scène</h3>
-      <p>Projet réalisé seul en Master 2. Un livreur Uber Eats franchit la sécurité et livre une commande au DJ sur scène lors de la Fête de la Musique — conçu de A à Z avec les outils IA.</p>
-      <div><span class="proj-tag">Script créatif</span><span class="proj-tag">Vidéo IA</span><span class="proj-tag">Heygen</span><span class="proj-tag">Storytelling</span></div>
-    </div>
-  </div>
+
+  <div class="section-label" style="margin-top:5rem;">En entreprise</div>
+  <h2 class="section-title">Expériences <em>&</em><br>Alternance</h2>
 
   <!-- Cegedim -->
   <div class="proj-row fade-in" onclick="showPage('cegedim')" style="cursor:pointer;">
@@ -608,6 +606,51 @@ footer{background:#060606;color:var(--muted);text-align:center;padding:1.5rem;fo
 </div>
 <footer>© 2025 Iliyan Kandjee · <span onclick="showPage('main')" style="color:var(--accent);cursor:pointer;">← Retour au portfolio</span></footer>
 </div><!-- /page-simara -->
+
+<!-- ════════════ PAGE VIDEOS ════════════ -->
+<div class="page" id="page-videos">
+<div class="detail-wrap">
+  <div class="det-header">
+    <button class="back-btn" onclick="showPage('main')">← Retour au portfolio</button>
+    <div class="det-period">Projets perso & collaborations</div>
+    <h1 class="det-title">Campagnes vidéo<br><em>& Publicité</em></h1>
+    <p class="det-subtitle">Conception · Réalisation · Production audiovisuelle</p>
+    <div class="det-tags"><span class="det-tag">Concept créatif</span><span class="det-tag">Production vidéo</span><span class="det-tag">Direction artistique</span><span class="det-tag">Outils IA</span></div>
+  </div>
+  <div class="det-body">
+    <p class="det-intro">Sélection de campagnes vidéo conçues et réalisées dans des contextes variés : projet académique primé et collaboration avec des marques. De l'idée créative à la post-production, en passant par l'utilisation d'outils IA pour démultiplier la créativité.</p>
+    <div class="stats-strip">
+      <div class="stat-box"><span class="stat-n">2</span><span class="stat-l">Campagnes</span></div>
+      <div class="stat-box"><span class="stat-n">1er Prix</span><span class="stat-l">Master 2</span></div>
+      <div class="stat-box"><span class="stat-n">Solo / Marque</span><span class="stat-l">Contextes</span></div>
+      <div class="stat-box"><span class="stat-n">IA + Pro</span><span class="stat-l">Production</span></div>
+    </div>
+
+    <div class="proj-featured fade-in">
+      <div><iframe src="https://www.youtube.com/embed/-h8fHKvzH78" allowfullscreen></iframe></div>
+      <div class="proj-featured-txt">
+        <div class="proj-badge">🎬 Concept & Réalisation</div>
+        <h3>Campagne publicitaire Sport Connect</h3>
+        <p>Conception d'une publicité vidéo pour promouvoir le dernier modèle de lunettes sportives Sport Connect, de l'idée créative à la réalisation finale.</p>
+        <div><span class="proj-tag">Concept créatif</span><span class="proj-tag">Direction artistique</span><span class="proj-tag">Production vidéo</span></div>
+      </div>
+    </div>
+
+    <div class="proj-featured fade-in">
+      <div><iframe src="https://www.youtube.com/embed/jkUfAWxE3Dg" allowfullscreen></iframe></div>
+      <div class="proj-featured-txt">
+        <div class="proj-badge">🏆 1er Prix · Solo</div>
+        <h3>Ambush Marketing : Le Livreur Uber Eats qui a crashé la scène</h3>
+        <p>Projet réalisé seul en Master 2. Un livreur Uber Eats franchit la sécurité et livre une commande au DJ sur scène lors de la Fête de la Musique — conçu de A à Z avec les outils IA.</p>
+        <div><span class="proj-tag">Script créatif</span><span class="proj-tag">Vidéo IA</span><span class="proj-tag">Heygen</span><span class="proj-tag">Storytelling</span></div>
+      </div>
+    </div>
+
+<footer>© 2025 Iliyan Kandjee · <span onclick="showPage('main')" style="color:var(--accent);cursor:pointer;">← Retour au portfolio</span></footer>
+</div>
+</div>
+</div><!-- /page-videos -->
+
 
 <script>
 // ── Données slides ──
